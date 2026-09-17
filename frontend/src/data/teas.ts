@@ -1,0 +1,68 @@
+import type { Tea } from '../types/tea';
+
+export const teas: Tea[] = [
+  {
+    id: 1,
+    name: 'Сенча',
+    type: 'green',
+    rating: 4.5,
+    teaware: 'gaiwan',
+    description: 'Свежий, травянистый вкус с лёгкой сладостью.',
+  },
+  {
+    id: 2,
+    name: 'Дарджилинг',
+    type: 'red',
+    rating: 4.2,
+    teaware: 'teapot',
+    description: 'Мягкий аромат с фруктовыми и цветочными оттенками.',
+  },
+  {
+    id: 3,
+    name: 'Шу Пуэр',
+    type: 'puer',
+    rating: 4.8,
+    teaware: 'gaiwan',
+    description: 'Плотный, тёплый вкус с древесными нотами.',
+  },
+  {
+    id: 4,
+    name: 'Да Хун Пао',
+    type: 'oolong',
+    rating: 4.7,
+    teaware: 'gaiwan',
+    description: 'Насыщенный улун с жареными и минеральными оттенками.',
+  },
+  {
+    id: 5,
+    name: 'Бай Му Дань',
+    type: 'white',
+    rating: 4.4,
+    teaware: 'cup',
+    description: 'Лёгкий чай с нежным цветочным ароматом.',
+  },
+  {
+    id: 6,
+    name: 'Лун Цзин',
+    type: 'green',
+    rating: 4.6,
+    teaware: 'gaiwan',
+    description: 'Свежий зелёный чай с ореховыми оттенками.',
+  },
+  {
+    id: 7,
+    name: 'Те Гуань Инь',
+    type: 'oolong',
+    rating: 4.5,
+    teaware: 'gaiwan',
+    description: 'Цветочный аромат и лёгкое сливочное послевкусие.',
+  },
+  {
+    id: 8,
+    name: 'Шен Пуэр',
+    type: 'puer',
+    rating: 4.3,
+    teaware: 'teapot',
+    description: 'Свежий, терпкий вкус с травянистыми нотами.',
+  },
+];
