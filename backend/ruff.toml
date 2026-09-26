@@ -1,0 +1,36 @@
+exclude = [
+    ".eggs",
+    ".whl",
+    ".git",
+    ".mypy_cache",
+    ".env",
+    ".pytest_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "_build",
+    "BUILD",
+    "build",
+    "dist",
+    "site-packages",
+    "venv",
+    "tools",
+    "tests",
+]
+
+line-length = 120
+indent-width = 4
+target-version = "py310"
+
+[lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]
+unfixable = ["E712", "E711", "E721"]
+
+
+[format]
+indent-style = "space"
+line-ending = "lf"
+quote-style = "double"
